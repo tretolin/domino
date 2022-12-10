@@ -1,14 +1,40 @@
+// Fonts 
+@font-face {
+  font-family: Bantayog;
+  src: url('./fonts/Bantayog-Regular.otf') format("opentype");
+}
+
+// Domino-Theme
+$base-black: #1D1F1C;
+$base-white: #F4F2F2;
+$base-beige: #F7EEE8;
+$base-light-green: #B0CCC2;
+$base-brown: #A0642E;
+$base-green: #08514D;
+
+// Utils
+
+.w-100 { width:100% }
+
+.size-30 { font-size:30px } 
+
+.text-center {text-align: center }
+
 body {
-  background-color: #282c34;
-  color: white;
+  color: $base-black;
 }
 
 .domino-app {
   display: flex;
   flex-direction: column;
 
+  h2 {
+    font-family: Bantayog;
+    text-transform: uppercase;
+  }
+
   section {
-    border: 1px solid;
+    border: 0;
   }
 }
 
