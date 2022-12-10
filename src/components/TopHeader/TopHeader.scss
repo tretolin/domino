@@ -1,3 +1,8 @@
-#top-header {
+
+@import '../../Domino';
+
+section[id="top-header"] {
     height: 218px;
+    background-color: $base-green;
+    color: $base-white !important;
 }

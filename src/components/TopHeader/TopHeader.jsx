@@ -1,10 +1,16 @@
 import "./TopHeader.scss";
 import React from "react";
 
+import BrandLogo from '../../images/BrandLogo'
+
 const TopHeader = () => {
   return (
-    <section className="top-header">
-      <h1>TopHeader</h1>
+    <section id="top-header">
+      <div>
+
+      <BrandLogo />
+
+      </div>
     </section>
   );
 }
