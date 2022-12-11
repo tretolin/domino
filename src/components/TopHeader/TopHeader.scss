@@ -1,8 +1,36 @@
 
 @import '../../Domino';
 
-section[id="top-header"] {
-    height: 218px;
-    background-color: $base-green;
-    color: $base-white !important;
+section {
+    
+    &#top-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: $base-green;
+        background: url('../../images/top-bg.jpg');
+        background-size: cover;
+        color: $base-white !important;
+        font-size: 18px;;
+
+        .main-logo {
+            padding: 8vw 0 4vw 0;
+            max-width: 40%;
+            width:100%;
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .header-icon {
+            padding: 1vw;
+            width: 5vw;
+            cursor: pointer;
+            &.big { width: 7vw }
+        }
+
+
+
+    }
+
 }
