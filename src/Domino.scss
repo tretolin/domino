@@ -14,14 +14,36 @@ $base-green: #08514D;
 
 // Utils
 
+.mt-4 { margin-top: 20px }  
+
 .w-100 { width:100% }
 
 .size-30 { font-size:30px } 
 
-.text-center {text-align: center }
+.text-center { text-align: center }
+.text-uppercase { text-transform: uppercase } 
+
+// UI
+
+.domino-button {
+  display: inline-block;
+  border-radius: 15px 15px;
+  transition: all .15s linear;
+  padding: 10px 40px;
+  background-color: $base-black;
+  cursor: pointer;
+  color:$base-white;
+  
+  &:hover {
+    opacity: .85;
+    color: $base-black;
+    background-color:#B0CCC2;
+  }
+}
 
 body {
   color: $base-black;
+  font-family: Bantayog, Verdana;
 }
 
 .domino-app {
@@ -38,17 +60,9 @@ body {
   }
 }
 
-#promo-banner {
-  height: 88px;
-}
+// Utils
 
-#promo-banner {
-  height: 88px;
-}
-
-#Utils
-
-.text-center { text-align: center}
+//.text-center { text-align: center }
 
 // .App-header {
 //   background-color: #282c34;
