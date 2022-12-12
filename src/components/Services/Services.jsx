@@ -1,11 +1,13 @@
-import "./Services.css";
+import "./Services.scss";
 import React from "react";
 import { Subtitle } from "../../utils/utils";
 
 const Services = () => {
   return (
     <section id="services" className="text-center">
-      <Subtitle title="Servicios"/>
+      <div className="services-container">
+        <img src="/images/services.jpg" alt="Servicios Dominó"/>
+      </div>
     </section>
   );
 }

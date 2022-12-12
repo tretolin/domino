@@ -1,0 +1,13 @@
+.services-container {
+    margin: 3vw;
+    border-radius: 1%;
+    overflow: hidden;
+    box-shadow: 2px, 2px, 2px, 2px, #333;
+    box-shadow: 1px 4px 13px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 4px 13px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 13px -3px rgba(0,0,0,0.75);
+    img {
+        display: block;;
+        width:100%;
+    }
+}
