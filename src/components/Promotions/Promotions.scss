@@ -1,0 +1,30 @@
+.promo-slider {
+    
+    .promo-container {
+        overflow-x: hidden;
+        .slide-group {
+            display: flex;
+            align-items: flex-start;
+            position:relative;
+
+            img {
+                display: inline;
+            }
+
+            animation-name: slide;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+        }
+
+    }
+}
+
+@keyframes slide {
+    0% { top: 0; left: 0; }
+    28% { left:0 }
+    34% { left:-100% }
+    61% { left:-100% }
+    67% { left:-200% }
+    94% { left:-200% }
+    100% { left: 0; }
+}
