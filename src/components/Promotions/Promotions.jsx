@@ -1,6 +1,5 @@
 import "./Promotions.scss";
 import React from "react";
-// import { Subtitle } from "../../utils/utils";
 
 const Promotions = () => {
   return (
