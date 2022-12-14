@@ -1,13 +1,6 @@
 import "./Gallery.scss";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Subtitle } from "../../utils/utils";
-
-let counter = 0;
-
-const next = (inc) => {
-  console.log('ADD', inc)
-  counter = counter + inc;
-}
 
 const Gallery = (props) => {
 
@@ -36,7 +29,7 @@ const Gallery = (props) => {
           </div>
           <div className="gallery-nav">
           {
-            images.map( (img, index) => <div key={index} className={["slide-item "+ (slide == index ? "selected" : "unselected")].join()}
+            images.map( (img, index) => <div key={index} className={["slide-item "+ (slide === index ? "selected" : "unselected")].join()}
             
               id={index} onClick={ (index) => { moveSlide(index)} }>
               { slide === index ? '•' : '•'} </div> )
