@@ -3,11 +3,13 @@ import './Domino.scss';
 import TopHeader from './components/TopHeader/TopHeader';
 import Promotions from './components/Promotions/Promotions';
 import Services from './components/Services/Services';
-import Installations from './components/Installations/Installations';
+// import Installations from './components/Installations/Installations';
 import Gallery from './components/Gallery/Gallery';
 import VideoSection from './components/VideoSection/VideoSection';
 import Schedules from './components/Schedules/Schedules';
 import Footer from './components/Footer/Footer';
+
+import { installations, gallery } from '../src/data/images'
 
 function App() {
   return (
@@ -17,8 +19,9 @@ function App() {
           <TopHeader/>
           <Promotions/>
           <Services/>
-          <Installations/>
-          <Gallery/>
+          {/* <Installations/> */}
+          <Gallery title="Nuestras Instalaciones" images={installations}/>
+          <Gallery title="Galería" size="800" images={gallery}/>
           <VideoSection/>
           <Schedules/>
           <Footer/>
