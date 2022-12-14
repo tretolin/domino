@@ -1,6 +1,5 @@
 import "./Services.scss";
 import React from "react";
-import { Subtitle } from "../../utils/utils";
 
 const Services = () => {
   return (
