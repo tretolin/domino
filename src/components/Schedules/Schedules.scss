@@ -1,5 +1,7 @@
 @import '../../Domino';
 #schedules {
+    background: 0px 0px no-repeat url('../../images/Icon/domino.svg');
+    background-size: 30vw 30vw;
     background-color: $base-light-grey;
     padding: 35px 0px;
 }
