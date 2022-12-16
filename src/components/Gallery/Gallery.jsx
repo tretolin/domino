@@ -29,8 +29,7 @@ const Gallery = (props) => {
           </div>
           <div className="gallery-nav">
           {
-            images.map( (img, index) => <div key={index} className={["slide-item "+ (slide === index ? "selected" : "unselected")].join()}
-            
+            images.map( (img, index) => <div key={index} className={["slide-item "+ (Number(slide) === Number(index) ? "selected" : "unselected")].join()}
               id={index} onClick={ (index) => { moveSlide(index)} }>
               { slide === index ? '•' : '•'} </div> )
           } 
