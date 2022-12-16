@@ -1,0 +1,22 @@
+@import '../../Domino';
+#schedules {
+    background-color: $base-light-grey;
+    padding: 35px 0px;
+}
+.schedules {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    .schedule-info {
+        margin: 15px 0px;
+        .week-day {
+            font-weight: bold;
+            padding-bottom: 12px;
+        }
+        .schedule {
+            font-size: 16px;
+            font-family: Verdana;
+            margin-bottom: 6px;
+        }
+    }
+}
