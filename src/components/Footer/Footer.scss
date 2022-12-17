@@ -1,0 +1,30 @@
+@import '../../Domino';
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background: 0px 0px no-repeat url('../../images/Icon/domino-reverse.svg');
+    background-size: 30vw 30vw;
+    background-position: bottom right 20px;
+    background-color: $base-brown;
+    color: $base-white;
+    padding: 35px 20px;
+
+    .contact-item {
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+        font-family: "Source Sans Pro", Verdana;
+        font-size: 14px;
+        margin-bottom: 10px;
+        .icon { width: 7vw }
+        .title {
+            padding-top: 5px;
+            font-family: "Source Sans Pro", Verdana;
+            font-size: 20px;;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+}
