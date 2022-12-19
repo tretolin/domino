@@ -13,21 +13,21 @@ import { installations, gallery } from '../src/data/images'
 
 function App() {
   return (
-    <div className="domino-app">
-
-      <div className="main-container">
-          <TopHeader/>
-          <Promotions/>
-          <Services/>
-          {/* <Installations/> */}
-          <Gallery title="Nuestras Instalaciones" images={installations}/>
-          <Gallery title="Galería" size="800" images={gallery}/>
-          {/* <VideoSection/> */}
-          <Schedules/>
-          <Footer/>
+    <>
+      <TopHeader/>
+      <div className="domino-app">
+        <div className="main-container">
+            <Promotions/>
+            <Services/>
+            {/* <Installations/> */}
+            <Gallery title="Nuestras Instalaciones" images={installations}/>
+            <Gallery title="Galería" size="800" images={gallery}/>
+            {/* <VideoSection/> */}
+            <Schedules/>
+            <Footer/>
+        </div>
       </div>
-
-    </div>
+    </>
   );
 }
 

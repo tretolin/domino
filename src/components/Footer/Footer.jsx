@@ -27,7 +27,7 @@ const Footer = () => {
       <div>
         {
           contactData.map( (item, index) => 
-            <div className="contact-item">
+            <div className="contact-item" key={index}>
               <div className="icon">
                 <div>
                   { [<IconLocation/>,<IconWhatsapp/>,<IconInstagram/>][index] }

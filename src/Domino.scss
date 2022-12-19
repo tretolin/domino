@@ -51,6 +51,31 @@ body {
   display: flex;
   flex-direction: column;
 
+  @media only screen and (min-width: 800px) {
+    align-items: center;
+  }
+
+  .main-container {
+    padding: 0px;
+
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+    @media only screen and (min-width: 800px) {
+      box-shadow: -2px 0px 5px 1px rgba(0,0,0,0.1);
+      -webkit-box-shadow: -2px 0px 5px 1px rgba(0,0,0,0.1);
+      -moz-box-shadow: -2px 0px 5px 1px rgba(0,0,0,0.1);
+      background-color: #eee;
+
+      border-radius: 10px;
+      margin:20px;
+
+      align-content: center;
+      width: 800px;
+      padding: 20px;
+    }
+  }
+
   h2 {
     font-family: Bantayog;
     text-transform: uppercase;
@@ -60,18 +85,3 @@ body {
     border: 0;
   }
 }
-
-// Utils
-
-//.text-center { text-align: center }
-
-// .App-header {
-//   background-color: #282c34;
-//   min-height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   font-size: calc(10px + 2vmin);
-//   color: white;
-// }
