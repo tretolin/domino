@@ -8,6 +8,7 @@ import Gallery from './components/Gallery/Gallery';
 // import VideoSection from './components/VideoSection/VideoSection';
 import Schedules from './components/Schedules/Schedules';
 import Footer from './components/Footer/Footer';
+import VideoSection from './components/VideoSection/VideoSection';
 
 import { installations, gallery } from '../src/data/images'
 
@@ -23,6 +24,7 @@ function App() {
             <Gallery title="Nuestras Instalaciones" images={installations}/>
             <Gallery title="Galería" size="800" images={gallery}/>
             {/* <VideoSection/> */}
+            <VideoSection/>
             <Schedules/>
             <Footer/>
         </div>

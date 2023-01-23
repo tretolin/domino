@@ -1,0 +1,16 @@
+.video-list {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 6vh;
+    .video-thumb {
+        display: inline-block;
+        padding: 12vh;
+        cursor: pointer;
+        background-size: cover;
+        opacity: .9;
+        transition: opacity .2s ease-in-out;
+        &:hover {
+            opacity: 1;;
+        }
+    }
+}
