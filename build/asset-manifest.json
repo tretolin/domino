@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c71e6d87.css",
-    "main.js": "/static/js/main.ad05353d.js",
+    "main.css": "/static/css/main.33dcbf95.css",
+    "main.js": "/static/js/main.3f1ff42c.js",
     "static/js/787.7fc50c22.chunk.js": "/static/js/787.7fc50c22.chunk.js",
     "static/media/Bantayog-Regular.otf": "/static/media/Bantayog-Regular.289d75a0655048f2e434.otf",
     "static/media/top-bg.jpg": "/static/media/top-bg.a1a3c2b60626d2da7bff.jpg",
     "static/media/domino.svg": "/static/media/domino.2e66bf3d1194c9ac0b98.svg",
     "static/media/domino-reverse.svg": "/static/media/domino-reverse.6f92a2914dfbd8e71da2.svg",
     "index.html": "/index.html",
-    "main.c71e6d87.css.map": "/static/css/main.c71e6d87.css.map",
-    "main.ad05353d.js.map": "/static/js/main.ad05353d.js.map",
+    "main.33dcbf95.css.map": "/static/css/main.33dcbf95.css.map",
+    "main.3f1ff42c.js.map": "/static/js/main.3f1ff42c.js.map",
     "787.7fc50c22.chunk.js.map": "/static/js/787.7fc50c22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c71e6d87.css",
-    "static/js/main.ad05353d.js"
+    "static/css/main.33dcbf95.css",
+    "static/js/main.3f1ff42c.js"
   ]
 }
