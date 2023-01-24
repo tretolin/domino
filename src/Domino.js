@@ -1,5 +1,5 @@
 import './Domino.scss';
-
+import { useState } from 'react';
 import TopHeader from './components/TopHeader/TopHeader';
 import Promotions from './components/Promotions/Promotions';
 import Services from './components/Services/Services';
@@ -9,13 +9,31 @@ import Gallery from './components/Gallery/Gallery';
 import Schedules from './components/Schedules/Schedules';
 import Footer from './components/Footer/Footer';
 import VideoSection from './components/VideoSection/VideoSection';
+import VideoModal from "./components/VideoModal/VideoModal";
 
-import { installations, gallery } from '../src/data/images'
+import { installations, gallery, videos } from '../src/data/images'
 
 function App() {
+
+  const [showModal, setShowModal] = useState(false);
+  const [video, setVideo] = useState(0);
+
+  const showVideo = (name) => {
+    setShowModal(true);
+    setVideo(name)
+  }
+
+  const closeVideo = () => {
+    setShowModal(false);
+    setVideo(0)
+
+  }
+
   return (
     <>
       <TopHeader/>
+      <VideoModal name={video} show={showModal} close={closeVideo}/>
+
       <div className="domino-app">
         <div className="main-container">
             <Promotions/>
@@ -24,7 +42,7 @@ function App() {
             <Gallery title="Nuestras Instalaciones" images={installations}/>
             <Gallery title="Galería" size="800" images={gallery}/>
             {/* <VideoSection/> */}
-            <VideoSection/>
+            <VideoSection title="Videos" videos={videos} handleVideo={showVideo}/>
             <Schedules/>
             <Footer/>
         </div>
