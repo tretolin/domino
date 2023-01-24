@@ -1,0 +1,24 @@
+@import '../../Domino';
+
+html body #video-container {
+    top: 0;
+    position: fixed;
+    background-color: #08514D;
+    width:100vw;
+    height: 100vh;
+    .video-modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50vh;
+        box-shadow: 24;
+        padding: 20px;
+    }
+    z-index: 1000;
+}
+
+.close-video {
+    color: $base-white;
+    cursor: pointer;
+}

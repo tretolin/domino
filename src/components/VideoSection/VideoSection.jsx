@@ -1,14 +1,16 @@
 import "./VideoSection.scss";
-import React from "react";
+// import React, { useState } from "react";
 import { Subtitle } from "../../utils/utils";
 
-const VideoSection = () => {
+const VideoSection = (props) => {
 
-  const thumbs = [
-    "/video/thumb-01.jpg",
-    "/video/thumb-02.jpg",
-    "/video/thumb-03.jpg"
-  ]
+
+  const videoData = props.videos;
+
+  const selectVideo = videoName => {
+    props.handleVideo(videoName)
+    // setVideo(videoName)
+  }
 
   return (
     <section id="video-section" className="text-center">
@@ -16,8 +18,11 @@ const VideoSection = () => {
       <div className="video-list">
         {
         
-        thumbs.map(
-          thumb =>  <div className="video-thumb" style={ { backgroundImage: `url(${thumb})` } }></div>
+        videoData.map(
+          (video, index) =>  <div className="video-thumb" key={index}
+          style={ { backgroundImage: `url(${video.thumb})` } }
+          onClick={ () => selectVideo(video.video) }
+        ></div>
           )
         }
       </div>
