@@ -21,3 +21,9 @@ export const gallery = [
     'gallery/g-10.jpg',
     'gallery/g-11.jpg',
 ]
+
+export const videos = [
+    { thumb: "/video/thumb-01.jpg", video:'Domino-01.mov'},
+    { thumb: "/video/thumb-02.jpg", video:'Domino-02.mov'},
+    { thumb: "/video/thumb-03.jpg", video:'Domino-03.mov'},
+] 
