@@ -7,8 +7,8 @@ const VideoSection = (props) => {
 
   const videoData = props.videos;
 
-  const selectVideo = videoName => {
-    props.handleVideo(videoName)
+  const selectVideo = video => {
+    props.handleVideo(video)
     // setVideo(videoName)
   }
 
@@ -21,7 +21,7 @@ const VideoSection = (props) => {
         videoData.map(
           (video, index) =>  <div className="video-thumb" key={index}
           style={ { backgroundImage: `url(${video.thumb})` } }
-          onClick={ () => selectVideo(video.video) }
+          onClick={ () => selectVideo(video) }
         ></div>
           )
         }
