@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.33dcbf95.css",
-    "main.js": "/static/js/main.3f1ff42c.js",
+    "main.js": "/static/js/main.f1fa0bcc.js",
     "static/js/787.7fc50c22.chunk.js": "/static/js/787.7fc50c22.chunk.js",
     "static/media/Bantayog-Regular.otf": "/static/media/Bantayog-Regular.289d75a0655048f2e434.otf",
     "static/media/top-bg.jpg": "/static/media/top-bg.a1a3c2b60626d2da7bff.jpg",
@@ -9,11 +9,11 @@
     "static/media/domino-reverse.svg": "/static/media/domino-reverse.6f92a2914dfbd8e71da2.svg",
     "index.html": "/index.html",
     "main.33dcbf95.css.map": "/static/css/main.33dcbf95.css.map",
-    "main.3f1ff42c.js.map": "/static/js/main.3f1ff42c.js.map",
+    "main.f1fa0bcc.js.map": "/static/js/main.f1fa0bcc.js.map",
     "787.7fc50c22.chunk.js.map": "/static/js/787.7fc50c22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33dcbf95.css",
-    "static/js/main.3f1ff42c.js"
+    "static/js/main.f1fa0bcc.js"
   ]
 }
