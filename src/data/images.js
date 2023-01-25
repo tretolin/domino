@@ -23,7 +23,7 @@ export const gallery = [
 ]
 
 export const videos = [
-    { thumb: "/video/thumb-01.jpg", video:'Domino-01.mov'},
-    { thumb: "/video/thumb-02.jpg", video:'Domino-02.mov'},
-    { thumb: "/video/thumb-03.jpg", video:'Domino-03.mov'},
+    { thumb: "/video/thumb-01.jpg", video:'Domino-01.mp4'},
+    { thumb: "/video/thumb-02.jpg", video:'Domino-02.mp4'},
+    { thumb: "/video/thumb-03.jpg", video:'Domino-03.mp4'},
 ] 
