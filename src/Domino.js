@@ -18,9 +18,9 @@ function App() {
   const [showModal, setShowModal] = useState(false);
   const [video, setVideo] = useState(0);
 
-  const showVideo = (name) => {
+  const showVideo = (video) => {
     setShowModal(true);
-    setVideo(name)
+    setVideo(video)
   }
 
   const closeVideo = () => {
@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <TopHeader/>
-      <VideoModal name={video} show={showModal} close={closeVideo}/>
+      <VideoModal video={video} show={showModal} close={closeVideo}/>
 
       <div className="domino-app">
         <div className="main-container">
